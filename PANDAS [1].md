@@ -2,11 +2,19 @@
 
 - 사용하지 않더라도 일단 가져온다.
 
-- import numpy as np
+- ```
+  import warnings
+  warnings.filterwarnings('always')
+  warnings.filterwarnings('ignore')
+  
+  import numpy as np
+  import pandas as pd
+  
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  ```
 
-- import pandas as pd
-
-
+  
 
 ## 	판다스란?
 
